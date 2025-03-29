@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    
+}
+h1{
+    color: white;
+    font-weight: bold; /* Bold text */
+    text-align: center;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  
+}
+#container{
+    
+background-color:#fe4a49;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 65%;
+    height: 80%;
+    border-radius: 55px ;
+    border: 5px solid rgb(47, 45, 48) ;
+    padding: 15px;
+
+}
+
+#container p {
+    margin: 5%;
+  text-align:center; /* Justify text */
+  text-decoration: underline; /* Underline text */
+  font-weight: bold; /* Bold text */
+  font-style: italic; /* Italic text */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 1px; /* Spacing between letters */
+  word-spacing: 2px; /* Spacing between words */
+    font-size: 2em;
+    max-height: 500px;
+    height: 75%;
+    color: #009fb7;
+    padding: 20px;
+    background-color: #fed766;
+    font-family: 'Courier New', monospace;
+    border-radius: 25px; /* Amex often uses monospace fonts */
+
+
+}
+#container button{
+    border: 2px solid black;
+    outline: none;
+    background-color: #0cc6e2;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+@media (max-width: 720px) {
+    #container p {
+        font-size: 1.5em;
+        /* overflow:scroll; */
+    }
+    #container button{
+        width: 150px;
+        height: 40px;
+    }
+}
